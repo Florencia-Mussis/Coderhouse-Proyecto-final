@@ -21,7 +21,7 @@
     } 
 
     .button-index:hover{
-        transform: scale(1.10);
+        transform: scale(1.05);
     }
 
     .button-link {
@@ -49,12 +49,6 @@
             transform: translateX(0px);
         }   
     }   
-
-    @media (max-width: 768px) {
-        .primary-title {
-            text-align: center;
-        }
-    }
 
 }
 

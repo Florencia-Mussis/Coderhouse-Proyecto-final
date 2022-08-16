@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Florencia-Mussis/Proyecto-final-2/issues"
   },
-  "homepage": "https://github.com/Florencia-Mussis/Proyecto-final-2#readme"
+  "homepage": "https://github.com/Florencia-Mussis/Proyecto-final-2#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
 }
