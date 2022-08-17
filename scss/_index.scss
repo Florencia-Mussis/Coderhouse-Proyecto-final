@@ -31,11 +31,7 @@
         text-decoration: none;
         text-transform: uppercase;  
     }
-
-    .button-link:hover{
-        color: deeppink;
-    }    
-
+    
     .primary-img {
         animation: from-right 1.2s ease;
     }
@@ -50,6 +46,18 @@
         }   
     }   
 
+}
+
+@include media-breakpoint-between(md, xxl) {
+    .primary-title{ 
+        text-align: left;
+    }
+}
+
+@include media-breakpoint-between(xs, sm) {
+    .primary-title{ 
+        text-align: center;
+    }
 }
 
 /*** SECONDARY SECTION ***/
