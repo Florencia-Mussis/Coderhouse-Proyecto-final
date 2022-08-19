@@ -1,6 +1,5 @@
 /*** PRIMARY SECTION ***/
 #primary-section {
-    color: $primary-color;
     background-image: linear-gradient(to right, deeppink,rgb(247, 114, 134), rgb(250, 166, 179));
 
     .primary-container {
@@ -12,20 +11,11 @@
     }
    
     .button-index {
-        background-color: #000000;
-        padding: 1rem 1.2rem 1rem 1.2rem;
-        border: 1px solid #000000;
-        border-radius: 1rem;
         width: 55%;
         transition: all 1s ease;
     } 
 
-    .button-index:hover{
-        transform: scale(1.05);
-    }
-
     .button-link {
-        color: lightpink;
         font-size: 1.5rem;
         font-weight: 600;
         text-decoration: none;
@@ -62,7 +52,6 @@
 
 /*** SECONDARY SECTION ***/
 #secondary-section {
-    color: $secondary-color;
     background-image: linear-gradient(#000000, #1f1b1b);
 
     .secondary-container {

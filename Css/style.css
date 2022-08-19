@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*** VARIABLES ***/
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -36,7 +37,7 @@
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #ffffff;
-  --bs-dark: #292127;
+  --bs-dark: #000000;
   --bs-primary-rgb: 255, 20, 147;
   --bs-secondary-rgb: 255, 182, 193;
   --bs-success-rgb: 25, 135, 84;
@@ -44,7 +45,7 @@
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 255, 255, 255;
-  --bs-dark-rgb: 41, 33, 39;
+  --bs-dark-rgb: 0, 0, 0;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 41, 33, 39;
@@ -1906,13 +1907,13 @@ progress {
 
 .table-dark {
   --bs-table-color: #fff;
-  --bs-table-bg: #292127;
-  --bs-table-border-color: #3e373d;
-  --bs-table-striped-bg: #342c32;
+  --bs-table-bg: #000000;
+  --bs-table-border-color: #1a1a1a;
+  --bs-table-striped-bg: #0d0d0d;
   --bs-table-striped-color: #fff;
-  --bs-table-active-bg: #3e373d;
+  --bs-table-active-bg: #1a1a1a;
   --bs-table-active-color: #fff;
-  --bs-table-hover-bg: #393237;
+  --bs-table-hover-bg: #131313;
   --bs-table-hover-color: #fff;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
@@ -2913,19 +2914,19 @@ textarea.form-control-lg {
 
 .btn-dark {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #292127;
-  --bs-btn-border-color: #292127;
+  --bs-btn-bg: #000000;
+  --bs-btn-border-color: #000000;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #494247;
-  --bs-btn-hover-border-color: #3e373d;
-  --bs-btn-focus-shadow-rgb: 73, 66, 71;
+  --bs-btn-hover-bg: #262626;
+  --bs-btn-hover-border-color: #1a1a1a;
+  --bs-btn-focus-shadow-rgb: 38, 38, 38;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #544d52;
-  --bs-btn-active-border-color: #3e373d;
+  --bs-btn-active-bg: #333333;
+  --bs-btn-active-border-color: #1a1a1a;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #292127;
-  --bs-btn-disabled-border-color: #292127;
+  --bs-btn-disabled-bg: #000000;
+  --bs-btn-disabled-border-color: #000000;
 }
 
 .btn-outline-primary {
@@ -3048,19 +3049,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-dark {
-  --bs-btn-color: #292127;
-  --bs-btn-border-color: #292127;
+  --bs-btn-color: #000000;
+  --bs-btn-border-color: #000000;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #292127;
-  --bs-btn-hover-border-color: #292127;
-  --bs-btn-focus-shadow-rgb: 41, 33, 39;
+  --bs-btn-hover-bg: #000000;
+  --bs-btn-hover-border-color: #000000;
+  --bs-btn-focus-shadow-rgb: 0, 0, 0;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #292127;
-  --bs-btn-active-border-color: #292127;
+  --bs-btn-active-bg: #000000;
+  --bs-btn-active-border-color: #000000;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #292127;
+  --bs-btn-disabled-color: #000000;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #292127;
+  --bs-btn-disabled-border-color: #000000;
   --bs-gradient: none;
 }
 
@@ -4667,12 +4668,12 @@ textarea.form-control-lg {
 }
 
 .alert-dark {
-  --bs-alert-color: #191417;
-  --bs-alert-bg: #d4d3d4;
-  --bs-alert-border-color: #bfbcbe;
+  --bs-alert-color: black;
+  --bs-alert-bg: #cccccc;
+  --bs-alert-border-color: #b3b3b3;
 }
 .alert-dark .alert-link {
-  color: #141012;
+  color: black;
 }
 
 @keyframes progress-bar-stripes {
@@ -5066,17 +5067,17 @@ textarea.form-control-lg {
 }
 
 .list-group-item-dark {
-  color: #191417;
-  background-color: #d4d3d4;
+  color: black;
+  background-color: #cccccc;
 }
 .list-group-item-dark.list-group-item-action:hover, .list-group-item-dark.list-group-item-action:focus {
-  color: #191417;
-  background-color: #bfbebf;
+  color: black;
+  background-color: #b8b8b8;
 }
 .list-group-item-dark.list-group-item-action.active {
   color: #fff;
-  background-color: #191417;
-  border-color: #191417;
+  background-color: black;
+  border-color: black;
 }
 
 .btn-close {
@@ -6631,7 +6632,7 @@ textarea.form-control-lg {
 
 .text-bg-dark {
   color: #fff !important;
-  background-color: RGBA(41, 33, 39, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(0, 0, 0, var(--bs-bg-opacity, 1)) !important;
 }
 
 .link-primary {
@@ -6684,10 +6685,10 @@ textarea.form-control-lg {
 }
 
 .link-dark {
-  color: #292127 !important;
+  color: #000000 !important;
 }
 .link-dark:hover, .link-dark:focus {
-  color: #211a1f !important;
+  color: black !important;
 }
 
 .ratio {
@@ -10758,15 +10759,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/*** GLOBALS ***/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/*** NAVBAR ***/
 .navbar {
   text-transform: uppercase;
-  background-color: white;
   z-index: 2;
 }
 .navbar .navbar-brand {
@@ -10780,17 +10782,16 @@ textarea.form-control-lg {
   font-weight: bold;
 }
 
+/*** FOOTER ***/
 #footer {
   height: 10vh;
 }
 #footer .coopyright-link {
-  color: #ffffff;
   text-decoration: none;
 }
 
 /*** PRIMARY SECTION ***/
 #primary-section {
-  color: #000000;
   background-image: linear-gradient(to right, deeppink, rgb(247, 114, 134), rgb(250, 166, 179));
 }
 #primary-section .primary-container {
@@ -10800,18 +10801,10 @@ textarea.form-control-lg {
   font-size: 2.5rem;
 }
 #primary-section .button-index {
-  background-color: #000000;
-  padding: 1rem 1.2rem 1rem 1.2rem;
-  border: 1px solid #000000;
-  border-radius: 1rem;
   width: 55%;
   transition: all 1s ease;
 }
-#primary-section .button-index:hover {
-  transform: scale(1.05);
-}
 #primary-section .button-link {
-  color: lightpink;
   font-size: 1.5rem;
   font-weight: 600;
   text-decoration: none;
@@ -10843,7 +10836,6 @@ textarea.form-control-lg {
 }
 /*** SECONDARY SECTION ***/
 #secondary-section {
-  color: lightpink;
   background-image: linear-gradient(#000000, #1f1b1b);
 }
 #secondary-section .secondary-container {
@@ -10863,7 +10855,6 @@ textarea.form-control-lg {
 }
 
 .card {
-  border-radius: 4px;
   border: solid;
   list-style-position: inside;
   cursor: pointer;
