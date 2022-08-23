@@ -35,7 +35,7 @@
 
 }
 
-@include media-breakpoint-between(md, xxl) {
+@include media-breakpoint-between(lg, xxl) {
     .primary-title{ 
         text-align: left;
     }

@@ -10819,7 +10819,7 @@ textarea.form-control-lg {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1399.98px) {
+@media (min-width: 992px) and (max-width: 1399.98px) {
   .primary-title {
     text-align: left;
   }
