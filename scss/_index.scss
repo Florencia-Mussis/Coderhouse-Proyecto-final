@@ -4,14 +4,11 @@
 
     .primary-container {
         text-transform: uppercase;
+        font-weight: bold;
     }
 
-    .primary-description {
-        font-size: 2.5rem; 
-    }
-   
     .button-index {
-        width: 55%;
+        width: 65%;
         transition: all 1s ease;
     } 
 
@@ -45,9 +42,13 @@
 }
 
 @include media-breakpoint-between(xs, sm) {
+    #primary-section {
+        background-image: linear-gradient(deeppink,rgb(247, 114, 134), rgb(250, 166, 179));
+    }
+    
     .primary-title{ 
         text-align: center;
-    }
+    }    
 }
 
 /*** SECONDARY SECTION ***/

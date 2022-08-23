@@ -10783,10 +10783,7 @@ textarea.form-control-lg {
 }
 
 /*** FOOTER ***/
-#footer {
-  height: 10vh;
-}
-#footer .coopyright-link {
+.coopyright-link {
   text-decoration: none;
 }
 
@@ -10796,12 +10793,10 @@ textarea.form-control-lg {
 }
 #primary-section .primary-container {
   text-transform: uppercase;
-}
-#primary-section .primary-description {
-  font-size: 2.5rem;
+  font-weight: bold;
 }
 #primary-section .button-index {
-  width: 55%;
+  width: 65%;
   transition: all 1s ease;
 }
 #primary-section .button-link {
@@ -10830,6 +10825,9 @@ textarea.form-control-lg {
   }
 }
 @media (max-width: 575.98px) {
+  #primary-section {
+    background-image: linear-gradient(deeppink, rgb(247, 114, 134), rgb(250, 166, 179));
+  }
   .primary-title {
     text-align: center;
   }
