@@ -9,6 +9,7 @@
     list-style-position: inside; 
     cursor: pointer;
     transition: all 300ms ease;
+    text-transform: uppercase;
 
     &:hover {
         transform: scale(1.03);
@@ -19,10 +20,6 @@
         font-weight: bold;
         font-size: 1.5rem;
     }     
-
-    .card-body {
-        text-transform: uppercase;
-    }
 
     .card-subtitle {
         font-size: 4rem;
@@ -35,7 +32,6 @@
 
     .suscription-link {
         text-decoration: none;
-        text-transform: uppercase;
         cursor: pointer;
         transition: all 1s ease;
     }

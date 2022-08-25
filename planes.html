@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!----------  GOOGLE FONTS ---------->
-    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;500;600;700&family=Chivo&family=Montserrat:ital,wght@0,100;0,200;0,600;0,700;1,500&display=swap" rel="stylesheet">
     <!----------  LINK CSS ---------->
     <link rel="stylesheet" href="Css/style.css">
     <title>Inicio</title> 
@@ -24,7 +22,7 @@
     HEADER 
  ------------->
     <header>
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar navbar-expand-lg shadow-sm bg-white fixed-top">
             <div class="container-fluid">
 
                 <!----------  LOGO ---------->
@@ -66,15 +64,16 @@
     MAIN 
  ------------->
     <main>
-        <section 
-        class="plan-section pt-4 container-fluid justify-content-center">
+        <section id="plan-section" class="container-fluid justify-content-center">
         
             <!---------- TITULO ---------->
-            <div class="col-sm-12 col-md-12 col-lg-12 text-center py-5">
-                <div class="plan-title">  
-                    <h1 class="display-5"><strong>¡eleg&iacute; el plan que mejor se adapte a tus necesidades!</strong></h1>
-                </div>
-            </div>    
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center py-5">
+                    <div class="plan-title pt-5">  
+                        <h1 class="display-5"><strong>¡eleg&iacute; el plan que mejor se adapte a tus necesidades!</strong></h1>
+                    </div>
+                </div> 
+            </div>   
 
             <div class="row text-center align-items-center justify-content-around pb-5">
                 <!---------- PLAN 1 ---------->
@@ -134,7 +133,7 @@
     FOOTER 
  ------------->
     <section id="footer">
-        <div class="container-fluid bg-primary py-2">
+        <div class="container-fluid bg-primary mt-5 py-2">
             <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
                 <symbol id="facebook" viewBox="0 0 16 16">
                     <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
@@ -146,7 +145,6 @@
                     <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
                 </symbol>
             </svg>
-
         
             <footer class="align-items-center">
                 <div class="row justify-content-center mb-2">
@@ -156,6 +154,7 @@
                         <li class="px-2"><a class="" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
                     </ul>
                 </div>
+                
                 <div class="row text-center">
                     <span>Developed by <a class="coopyright-link text-light" href="#">FMUSSIS AGENCY </a> | 2022</span>
                 </div>
